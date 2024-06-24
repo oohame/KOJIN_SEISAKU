@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <meta charset="UTF-8"></meta>
+<head>
+    <title>パスワード忘れたページ</title>
+</head>
+<body>
+    <div th:if="${param.error}">
+        <p>無効です</p>
+    </div>
+    <form th:action="@{/forgotpass}" method="post">
+        <div>
+            <label>username: </label>
+            <input type="text" name="username" required/>
+        </div>
+        <div>
+            <label>Birthday: </label>
+            <input type="date" name="birthday" required/>
+        </div>
+        <button type="submit">OK</button>
+    </form>
+</body>
+</html>
