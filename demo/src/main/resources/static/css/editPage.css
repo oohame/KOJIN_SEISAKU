@@ -1,0 +1,135 @@
+/* #imageField{
+    background: #ffb6c1;
+    padding: 10px;
+} */
+
+.image-container{
+    background-color: aliceblue;
+    width: 200%;
+}
+
+.skin{
+    position: relative;
+    left: 30%;
+}
+
+.set-body{
+    position: relative;
+    left: 29%;
+    bottom: 52px;
+}
+
+/* #image-box{
+    position: relative;
+    bottom: 52px;
+    left: 10px;
+} */
+
+.edit_human{
+    width: 15%;               /* 幅指定 */
+    margin:  10px;              /* 周りの余白指定 */
+    float:  left;
+    position: relative;
+    left: 10%;
+}
+
+.select-body{
+    position: relative;
+    left: 32%;
+}
+
+.title-write{
+    width: 100%;
+    padding: 3px 4px;
+    border: 2px solid #292330;
+    border-radius: 5px;
+    font-size: 15px;
+    position: relative;
+    left: 40%;
+    margin: 10px;
+}
+
+.saveButton {
+    display: inline-block;
+    text-decoration: none;
+    color: #f9a9ae;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    font-weight: bold;
+    background-image: linear-gradient(#fed6e3 0%, #ffaaaa 100%);
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.66);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.28);
+}
+
+.button-position{
+    position: relative;
+    left: 75%;
+}
+
+.send-savePage{
+    position: relative;
+    left: 66%;
+}
+
+.return{
+    position: relative;
+    left: 83%;
+}
+
+.field{
+    text-align: center;
+    display: inline-block;
+    width:200px;
+    height:100px;
+    vertical-align: top;
+}
+
+.edit{
+    background: blue;
+}
+
+.body{
+    background: wheat;
+    padding: 10px;
+}
+
+.body-container{
+    /* display: flex;
+    flex-wrap: wrap;
+    gap: 8px 6px; */
+    background-color: greenyellow;
+    padding: 1%;
+}
+
+.body-list{
+    display: flex;
+}
+
+.bodies{
+    background-color: white;
+    gap: 8px 6px;
+}
+
+.left{
+    float: left;
+}
+
+/* .container-body{
+    flex: 1 1 calc(20% - 10px); 
+            margin: 5px;
+            box-sizing: border-box;
+} */
+
+
+
+/* .container-body img{
+    width: 100%;
+    height: auto;
+    display: block;
+} */
+
+

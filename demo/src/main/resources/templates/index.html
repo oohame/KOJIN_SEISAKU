@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>タイトル</title>
+    <link rel="stylesheet" th:href="@{/css/allPage.css}">
+    <link rel="stylesheet" th:href="@{/css/indexPage.css}">
+</head>
+<body>
+    <div class = "header">
+            <div class = "header-logo">Fusion Body</div>
+    </div>
+	<h3 class = "title">検索</h3>
+    <form th:action="@{/index}" method="post" class = "search">
+        
+            <input type="text" id="username" name="username" placeholder="名前" class ="index-write">
+        
+        <button class = "saerch-button" type="submit">検索</button>
+	</form>
+    <!-- <table>
+    <thead> -->
+        <div>
+            <p th:if="${faceDataList != null and faceDataList.size() == 0}">検索結果はありません</p>
+        </div>
+    <ul>
+        <li th:each="faceData : ${faceDataList}" th:object="${faceData}" class ="search-back">
+            
+            <p th:utext="*{face_image}"></p>
+            <p class = "flex-list-text" th:text="*{username}"></p>
+            <p class = "flex-list-text">
+                <a th:href= "@{/index/edit/{id}(id=${faceData.id}) }" class="btn_13"><span>Go</span></a>
+            </p>
+        </li>
+    </ul>
+    <div th:if="${errorMessage}">
+        <p style="color: red;" th:text="${errorMessage}"></p>
+    </div>
+    <!-- </table> -->
+</body>
+</html>

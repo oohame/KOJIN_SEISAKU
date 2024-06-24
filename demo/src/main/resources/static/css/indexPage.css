@@ -1,0 +1,69 @@
+.index-write{
+  width: 20%;
+  padding: 3px 6px;
+  border: 2px solid #292330;
+  border-radius: 15px;
+  font-size: 15px;
+}
+
+.saerch-button{
+    
+    /* border: 2px solid #292330; */
+    /* border-radius: 0 1.5rem 1.5rem 0; */
+    border-radius: 8px;
+    font-size: 13px;
+    background-color: #333947;
+    color: #fff;
+}
+
+.search{
+  text-align: center;
+}
+
+/* @meida (max-width: 670px){ */
+ul{
+    list-style-type: none;
+    display: flex;
+    background-color: #ffffffde;
+    margin: 30px;
+}
+
+.flex-list-text{
+    text-align: center;
+}
+
+a.btn_13 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 60px;
+    box-sizing: border-box;
+    position: relative;
+    left: 50px;
+  }
+  a.btn_13 span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    background: #d8ff4a;
+    box-sizing: border-box;
+    color: #333;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    box-shadow: 0px 5px 12px #f3dcdc, -6px -6px 12px #fcfff3;
+    border-radius: 10px;
+    position: absolute;
+    top: -5px;
+    left: 0;
+    transition-duration: 0.2s;
+  }
+  a.btn_13:hover span {
+    left: 0;
+    top: 0;
+    box-shadow: 0 0 4px #CAD4E2, -2px -2px 4px #FFF;
+  }
+/* } */

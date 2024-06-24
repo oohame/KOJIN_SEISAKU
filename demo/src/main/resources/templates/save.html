@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Save Image</title>
+    <link rel="stylesheet" th:href="@{/css/allPage.css}">
+    <link rel="stylesheet" th:href="@{/css/savePage.css}">
+</head>
+<body>
+    <div class = "header">
+        <div class = "header-logo">Fusion Body</div>
+    </div>
+	<h3 class = "title">保存ページ</h3>
+    <div class ="save-container">
+        <div th:each="saveData : ${saveDataList}" th:object="${saveData}" class="save">
+            <td th:utext="*{face_save}"></td>
+            <p th:utext="*{body_save}" class = "select-body"></p>
+            <p th:text="*{title}" class = "select-title"></p>
+            <p><a class="btn_10" th:href="@{/delete(id=*{id})}"><span>削除</span></a>
+            <a class="btn_11" th:href="@{/saveEdit/{id}(id=*{id})}"><span>編集</span></a>
+        </div>
+    </div>
+    <p class = return-index>
+        <a class="link" th:href="@{/index}" >検索画面に戻る</a>
+    </p>
+</body>
+</html>

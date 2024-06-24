@@ -1,0 +1,51 @@
+.login-container{
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 20%;
+    margin: auto;
+}
+
+.login-write{
+    width: 90%;
+    padding: 5px 10px;
+    border: 2px solid #292330;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.login-title{
+    text-align: center;
+}
+
+.login-back{
+    background-image: url(https://pbs.twimg.com/media/CxXWZH1UUAANkDM.jpg);
+    background-position-x: center;
+}
+
+
+.login-button{
+    width: 50%;
+    padding: 4px 7px;
+    border: 2px solid #292330;
+    border-radius: 15px;
+    font-size: 13px;
+    position: relative;
+    top: 7px;
+}
+
+.login-button:hover {
+    background-color: #8ffff4;
+  }
+
+.register-link{
+    text-align: center;
+   
+}
+
+.register-link:hover{
+    color : #37c453;
+    text-decoration: none;
+  }
