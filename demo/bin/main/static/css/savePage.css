@@ -1,0 +1,106 @@
+.save-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 6px;
+    justify-content: center;
+}
+
+.save {
+    background-color: #fffffff7;
+    text-align: center;
+    position: relative;
+    height: 490px;
+}
+
+.select-body{
+    position: relative;
+    bottom: 52px;
+}
+
+.select-title{
+    position: relative;
+    bottom: 56px;
+}
+
+a.btn_10 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 60px;
+    box-sizing: border-box; 
+    /* background: #fff; */
+    position: relative;
+    left: 15px;
+    bottom: 53px;
+  }
+  a.btn_10 span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    background: #a0b3f1;
+    box-sizing: border-box;
+    color: #333;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    box-shadow: 0px 5px 12px #CAD4E2, -6px -6px 12px #FFF;
+    border-radius: 10px;
+    position: absolute;
+    top: -5px;
+    left: 0;
+    transition-duration: 0.2s;
+  }
+  a.btn_10:hover span {
+    left: 0;
+    top: 0;
+    box-shadow: 0 0 4px #CAD4E2, -2px -2px 4px #FFF;
+  }
+
+  a.btn_11 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 60px;
+    box-sizing: border-box;
+    /* background: #fff; */
+    position: relative;
+    left: 87px;
+    bottom: 113px
+  }
+  a.btn_11 span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    background: #b9ef8a;
+    box-sizing: border-box;
+    color: #333;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    box-shadow: 0px 5px 12px #CAD4E2, -6px -6px 12px #FFF;
+    border-radius: 10px;
+    position: absolute;
+    top: -5px;
+    left: 0;
+    transition-duration: 0.2s;
+  }
+  a.btn_11:hover span {
+    left: 0;
+    top: 0;
+    box-shadow: 0 0 4px #CAD4E2, -2px -2px 4px #FFF;
+  }
+
+  .return-index{
+    text-align: center;
+  }
+
+  .return-index:hover{
+    color : #37c453;
+    text-decoration: none;
+  }

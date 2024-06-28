@@ -1,0 +1,74 @@
+.saveEdit-title{
+        text-align: center;
+}
+
+.saveEdit-form{
+    text-align: center;
+}
+
+.saveEdit-write{
+    width: 20%;
+    padding: 5px 10px;
+    border: 2px solid #292330;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.body-filed{
+    text-align: center;
+}
+
+.body-container{
+    background-color: white;
+    width: 40%;
+    height: 70%;
+    margin: auto;   
+}
+
+.body-position{
+    position: relative;
+    bottom: 52px;
+}
+
+.btn_12 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 45px;
+    box-sizing: border-box;
+    background: #ffa017; /* デフォルトの背景色 */
+    margin: auto;
+    border: none;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    box-shadow: 0px 5px 12px #7ab5af, -6px -6px 12px #fcdede;
+    border-radius: 10px;
+}
+.btn_12::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 80%; /* 背景色を適用する高さ（下20%を削る） */
+    background: #a0b3f1;
+    top: 0;
+    left: 0;
+    border-radius: 10px 10px 0 0; /* 上部のみ角を丸める */
+    z-index: -1; /* 背面に配置 */
+    transition-duration: 0.2s; /* トランジション効果を追加 */
+}
+
+.btn_12:hover::before {
+    height: 100%; /* ホバー時に全体を覆う */
+    border-radius: 10px; /* 角丸を全体に適用 */
+    box-shadow: 0 0 4px #CAD4E2, -2px -2px 4px #FFF;
+}
+
+.btn_12 span {
+    position: relative;
+    z-index: 1; /* テキストを擬似要素の前面に配置 */
+}
